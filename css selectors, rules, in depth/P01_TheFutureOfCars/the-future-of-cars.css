@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+header {
+    background: url(./images/car-future.jpg) no-repeat center;
+    background-size: cover;
+    height: 700px;
+}
+
+nav {
+    float: right;
+    margin: 1em;
+}
+
+nav ul {
+    margin: 0;
+    padding: 1em;
+    height: 20em;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    padding: 1em 1em 1em 1em;
+    /* font-size: 1em; */
+}
+nav ul li a:hover{
+    color: #b38575;
+}
+
+main.content {
+    margin: 1em;
+}
+
+header h1{
+    margin: 0;
+    color: #B38575;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: bold;
+    padding: 2em 0 0 0.6em;
+}
+
+article {
+    display: inline-block;
+    margin: auto;
+}
+article h2 {
+    color: #b38575;
+    font-weight: 900;
+    margin: 1em 0 1em 0;
+    text-transform: uppercase;
+}
+
+article img {
+    width: 40%;
+    margin: auto;
+}
+
+article p {
+    font-size: 18px;
+    width: 58%;
+    margin-top: 2.2em;
+    float: right;
+}
+article p::first-letter{
+    font-size: 32px;
+    color: #b38575;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section {
+    text-align: justify;
+    width: 100%;
+}
+
+footer{
+    background-color: #ccc;
+}
+footer span {
+    text-align: center;
+    display: block;
+    padding: 1em;
+}

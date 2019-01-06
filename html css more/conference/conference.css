@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    font-weight: 300;
+    color: #4D6A6C
+}
+
+div#header {
+    background-color: #293F50;
+    padding-bottom: 50px;
+}
+
+div#header nav ul {
+    display: inline-block;
+    color: #4D6A6C;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+
+div#header nav li {
+    font-size: 16px;
+    line-height: 20px;
+    height: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+div#header li a {
+    text-decoration: none;
+    color: #4D6A6C;
+}
+
+header p.time {
+    text-align: right;
+    font-size: 16px;
+    margin: 0 30px;
+    color: #4D6A6C;
+    text-transform: uppercase;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #B4BCC2;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding: 80px;
+}
+
+header h2 {
+    text-align: center;
+    font-weight: 300px;
+}
+
+header p {
+    color: #5F6467;
+    text-align: center;
+}
+
+button.btn {
+    margin: 0 auto;
+    border-radius: 5px;
+    background: none;
+    color: #FBF0E2;
+    border: 1px solid #FBF0E2;
+    margin-top: 30px;
+    padding: 15px 15px;
+    text-align: right;
+    text-transform: uppercase;
+    display: block
+}
+
+button.btn:hover {
+    background: #FFFFFF;
+    cursor: pointer;
+    color: #293F50;
+}
+
+section {
+    display: inline-block;
+    width: 30%;
+    height: 200px;
+    margin: 0px 10px;
+}
+
+article img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+main {
+    color: #BCC4C9;
+    margin: 10px 0;
+    padding: 0px 100px 50px 100px;
+}
+
+footer {
+    background-color: #293F50;
+    color: #ACB4BB;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+
+footer nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+footer nav ul li a {
+    color: #ACB4BB;
+    text-decoration: none;
+}

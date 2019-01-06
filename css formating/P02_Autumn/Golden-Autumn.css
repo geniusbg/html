@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #EE7047;
+    color: #4E3C39;
+}
+
+nav {
+    text-align: right;
+    float: right;
+}
+
+nav ul li {
+    margin-right: 1.5em;
+    float: right;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header {
+    width: 40%;
+    margin: 3rem;
+    /* float: left; */
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+header, nav ul li {
+    border: double #C74D36;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+figure {
+    width: 30%;
+    float: right;
+}
+
+img {
+    border: 2px solid #C74D36;
+    border-radius: 15px;
+    width: 100%;
+}
+
+main {
+    background: #F8B544;
+    border-radius: 1rem;
+    margin: 0.2rem;
+}
+
+section {
+    padding: 20px;
+}
+
+article {
+    margin: 20px;
+    border: 2px solid #C74D36;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+p {
+    width: 60%;
+    text-align: justify;
+    font-size: 0.8rem;
+}
+
+button {
+    margin-top: 1em;
+    color: #C74D36;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5em 1em;
+    border: 2px solid #C74D36;
+    background: transparent;
+}
+
+footer {
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px dashed #C74D36;
+    border-radius: 10px;
+    text-align: center;
+    margin: 1em;
+    line-height: 2em;
+}

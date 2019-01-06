@@ -1,0 +1,37 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+body{
+}
+
+main {
+    margin: 1rem;
+    width: 400px;
+    margin: 0 auto;
+}
+div {
+    background: #6495ED;
+    width: 15%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.left {
+    float: left;
+    margin: 1.2rem;
+    /* display: block; */
+}
+
+.right {
+    float: right;
+    margin: 1.2rem;
+}
+
+.center {
+    margin: 0 auto;
+}
+p{
+    text-align: justify;
+}
